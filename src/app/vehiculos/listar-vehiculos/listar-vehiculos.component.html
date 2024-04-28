@@ -1,0 +1,30 @@
+<table class="table" id="table">
+  <thead class="table-dark" id="thead">
+    <tr>
+      <th scope="col" id="col-id">#</th>
+      <th scope="col" id="col-nombre">Marca</th>
+      <th scope="col" id="col-tipo">Línea</th>
+      <th scope="col" id="col-region">Modelo</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider" id="tbody">
+    <tr *ngFor="let vehiculo of vehiculos">
+      <td>
+        <dd>{{vehiculo.id}}</dd>
+      </td>
+      <td>
+        <dd>{{vehiculo.marca}}</dd>
+      </td>
+      <td>
+        <dd>{{vehiculo.linea}}</dd>
+      </td>
+      <td>
+        <dd>{{vehiculo.modelo}}</dd>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div *ngFor="let marca of vehiculosMarca | keyvalue">
+  <p>Total {{marca.key}}: {{marca.value}}</p>
+</div>
