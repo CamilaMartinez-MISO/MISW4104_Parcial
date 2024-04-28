@@ -1,4 +1,4 @@
-# MISW4104 - Ingeniería de Software para la Web - Parcial 1
+# MISW4104 - Ingeniería de Software para la Web - Parcial 
 
 ### Organización
 ```node
@@ -17,6 +17,6 @@
 ```
 
 ## Pruebas unitarias
-Se han realizado un total de 13 pruebas unitarias para evaluar los componentes principales, incluyendo el componente AppComponent, L
+Se han realizado un total de 13 pruebas unitarias para evaluar los componentes principales, incluyendo el componente AppComponent, Listar Vehículos y el servicio de Vehículos
 
 * Hecho por: María Camila Martínez
